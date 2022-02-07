@@ -1,3 +1,13 @@
+# CRUD webapp for handle expenses
+This is a little webapp made with codeIgniter 4. 
+
+To try it, you have to fix database parameters in app>Config>Database.php and then tap `php spark serve`
+
+For any other information about that framework, see the official documentation
+
+
+
+
 # CodeIgniter 4 Development
 
 [![Build Status](https://github.com/codeigniter4/CodeIgniter4/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions?query=workflow%3A%22PHPUnit%22)
