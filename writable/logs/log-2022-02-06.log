@@ -1,0 +1,11 @@
+CRITICAL - 2022-02-06 22:37:08 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\Users\Maw DAGNON\Documents\Git_manage\cip-1\system\View\View.php(210): include()
+#1 C:\Users\Maw DAGNON\Documents\Git_manage\cip-1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Maw DAGNON\Documents\Git_manage\cip-1\system\Common.php(1089): CodeIgniter\View\View->render()
+#3 C:\Users\Maw DAGNON\Documents\Git_manage\cip-1\app\Controllers\Expense.php(15): view()
+#4 C:\Users\Maw DAGNON\Documents\Git_manage\cip-1\system\CodeIgniter.php(825): App\Controllers\Expense->index()
+#5 C:\Users\Maw DAGNON\Documents\Git_manage\cip-1\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 C:\Users\Maw DAGNON\Documents\Git_manage\cip-1\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\Users\Maw DAGNON\Documents\Git_manage\cip-1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Maw DAGNON\Documents\Git_manage\cip-1\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
